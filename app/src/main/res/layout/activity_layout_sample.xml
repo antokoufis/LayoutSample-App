@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".LayoutSample">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/galaxys6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="159dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
